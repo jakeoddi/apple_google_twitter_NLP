@@ -26,6 +26,14 @@ I cleaned the data and engineered a number of features in order to look for insi
 
 Word clouds are a great way to visualize token frequency without using traditional methods such as barplots. In my first iteration of word clouds, the terms 'sxsw' and 'mention' were the two largest for each cloud (as stated above), so I removed them and re-ran the visualization.
 
+#### Product vs Sentiment
+
+I was curious about the kind of positive and negative attention attracted by each product on the individual level, so I made the barplot below to examine.
+
+![Emotion Freq By Product](./images/product_emotion_freq.png)
+
+At a first glance, there seems to be much more positive rating than negative rating within the dataset. iPad and Apple yield the two highest positive sentiment frequencies, while iPad also yields the highest negative sentiment frequency. From this we can deduce that it was mentioned in more tweets than the other products.
+
 #### Company vs Sentiment
 
 Next, I wanted to examine the sentiment based solely on the company, so I created the barplot below.
