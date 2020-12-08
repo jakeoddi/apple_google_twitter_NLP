@@ -75,3 +75,19 @@ The highest performing model was the Support Vector Machine, though I have more 
 Given more time, I would have liked to add to this project in the following ways: employ lemmatization for more accurate tokens; explore various text vectorization techniques such as Bag of Words; GridSearch parameters for my models to improve performance; cross validate all models; use deep learning techniques like word embedding and Word2Vec, using a neural network to model sentiment; and use VADER to perform semi-supervised sentiment analysis.
 
 Overall, social media data contains an abundance of useful information and is sure to remain valuable for the foreseeable future. If one were to scrape data from Twitter rather than pull it using their API, a tweet dataset has the potential to grow much larger and provide more powerful insights.
+
+## More Information
+
+Please review my full analysis in the [Jupyter Notebook](./apple_google_twitter_sentiment_NLP).
+
+For additional info, contact Jake Oddi at [jakeoddi@gmail.com](mailto:jakeoddi@gmail.com)
+
+## Repository Structure
+
+```
+├── README.md                                       <- The top-level README for reviewers of this project
+├── apple_google_twitter_sentiment_NLP.ipynb        <- Narrative documentation of analysis in Jupyter notebook
+├── apple_google_twitter_sentiment_NLP.pdf          <- PDF version of project presentation
+├── data                                            <- source data used for analysis
+└── images                                          <- saved graphs
+``` 
